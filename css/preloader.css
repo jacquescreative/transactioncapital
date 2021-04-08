@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+img.preload { display: none; }
+
+.preloader{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 999999999999;
+	background-image:url("../images/loader.gif");
+	background-size: 40%;
+	background-repeat:no-repeat;
+	
+  background-attachment: fixed;
+  background-position: center; 
+	background-color:#131212;
+    color: #E117F2;
+}
+ .preloader p {
+	 position: absolute;
+    top: 60%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+ }
+.preloader .preloader-gif{
+    display: block !important;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+    /*background: url('../images/loading.gif') no-repeat;   */
+}

@@ -1,0 +1,119 @@
+@media only screen and (min-width:200px) and (max-width:599px){
+/* CSS Document */
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+.st300 {
+	display:block !important;
+
+}
+.st600 {
+	display:none !important;
+
+}
+.st900 {
+	display:none !important;
+
+}
+.st1200 {
+	display:none !important;
+
+}
+.st1500 {
+	display:none !important;
+
+}
+	.bgImage {
+	background-image: url(../images/main-headerbg-mobi.jpg);
+		background-size: 100%;
+}
+	.left {
+	width:98%;
+}
+	.right {
+	width:98%;
+}
+	
+	.sixCol li {
+	width: 98% !important;
+		margin-left: -5px;
+}
+	.fiveCol li {
+	width: 98% !important;
+		margin-left: -5px;
+}
+	
+	.threeCol ul {
+		margin-left:-40px;
+	}
+	
+	.threeCol li{
+	width: 100% !important;
+}
+	.twoCol li {
+	width: 98% !important;
+}
+	.introduction .twoCol li {
+	width: 100% !important;
+}
+	.mobiHomeBG {
+		display: block;
+	}
+	.mobiMenu {
+		display:block;
+	}
+	.desktopMenu {
+		display:none;
+	}
+	.offering .fourCol li {
+		width: 48% !important;
+	}
+	.homeCallout ul {
+    margin: 0;
+    transition-duration: 0.5s;
+    float: right;
+    width: 200%;
+}
+	.homeCallout:hover ul {
+		margin: 0 -100%;}
+	
+	.homeCallout {
+    position: relative;
+    top: 0;
+    height: auto;
+    right: 0;
+    float: right;
+    width: 100%;
+    overflow: hidden;
+}
+.fourCol li {
+    width: 98% !important;
+}
+
+	.footer{
+		height:auto !important;
+	}
+	
+
+	
+	/* custom starts here */
+	.fullPage {
+	min-height: auto;
+}
+.halfPage {
+	min-height: auto;
+}
+.nav .centerNav .left {
+		width: 45% !important;
+	}
+.nav .centerNav .right {
+		width: 45% !important;
+	}
+	.mobiMenu img {
+		margin-top:10px;
+	}
+}

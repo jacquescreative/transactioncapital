@@ -1,0 +1,71 @@
+@media only screen and (min-width:1500px){
+/* CSS Document */
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+.st300 {
+	display:none !important;
+
+}
+.st600 {
+	display:none !important;
+
+}
+.st900 {
+	display:none !important;
+
+}
+.st1200 {
+	display:block !important;
+
+}
+.st1500 {
+	display:none !important;
+
+}
+	.nav li {
+
+    font-size: 77px;
+	}
+	
+.sixCol li{
+	width: 17.8% !important;
+}
+	.twoCol li {
+    width: 48% !important;
+}
+	.threeCol li{
+	width: 31%;
+}
+	.fiveCol li {
+    width: 14%;
+}
+	.fourCol li {
+	width: 23% !important;
+}
+	
+	.fullPage {
+	min-height: 800px;
+	transition-duration: 0.5s;
+}
+	.mobiHomeBG {
+		display: none;
+	}
+.halfPage {
+	min-height: 400px;
+	transition-duration: 0.5s;
+}
+	
+	/* custom starts here */
+	.mobiMenu {
+		display:none;
+	}
+	.desktopMenu {
+		display:block;
+	}
+	
+}

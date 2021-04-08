@@ -1,0 +1,88 @@
+@media only screen and (min-width:900px) and (max-width:1199px){
+/* CSS Document */
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+.st300 {
+	display:none !important;
+
+}
+.st600 {
+	display:none !important;
+
+}
+.st900 {
+	display:block !important;
+
+}
+.st1200 {
+	display:none !important;
+
+}
+.st1500 {
+	display:none !important;
+
+}
+	
+	.left {
+	width:50% !important;
+		padding: 0;
+		margin: 0;
+}
+	.right {
+	width:50% !important;
+		padding: 0;
+		margin: 0;
+}
+	
+	
+	.sixCol li {
+	width: 31% !important;
+}
+	.fourCol li{
+	width: 23% !important;
+}
+	.fiveCol li {
+    width: 14%;
+}
+	.threeCol li{
+	width: 31%;
+}
+	.twoCol li {
+    width: 48% !important;
+}
+	.footer{
+		height:auto !important;
+	}
+	
+		.fullPage {
+	min-height: 800px;
+	transition-duration: 0.5s;
+}
+	.contact ul {
+		margin-left: -40px;
+	}
+	.mobiHomeBG {
+		display: none;
+	}
+.halfPage {
+	min-height: 400px;
+	transition-duration: 0.5s;
+}
+	
+	/* custom starts here */
+	.homeBG {
+    background-size: 140%;
+	}
+	.mobiMenu {
+		display:none;
+	}
+	.desktopMenu {
+		display:block;
+	}
+	
+}
