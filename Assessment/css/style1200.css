@@ -1,0 +1,68 @@
+@media only screen and (min-width:1200px) and (max-width:1499px){
+/* CSS Document */
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+.st300 {
+	display:none !important;
+
+}
+.st600 {
+	display:none !important;
+
+}
+.st900 {
+	display:none !important;
+
+}
+.st1200 {
+	display:block !important;
+
+}
+.st1500 {
+	display:none !important;
+
+}
+	.threeCol li{
+	width: 31%;
+}
+	.twoCol li {
+    width: 48% !important;
+}
+	.fiveCol li {
+    width: 14%;
+}
+.sixCol li {
+	width: 18% !important;
+}
+	.fourCol li {
+	width: 23% !important;
+}
+	.bgImage {
+		background-size: 90%;
+	}
+	.mobiHomeBG {
+		display: none;
+	}
+	.fullPage {
+	min-height: 800px;
+	transition-duration: 0.5s;
+}
+.halfPage {
+	min-height: 400px;
+	transition-duration: 0.5s;
+}
+	
+	/* custom starts here */
+	.mobiMenu {
+		display:none;
+	}
+	.desktopMenu {
+		display:block;
+	}
+	
+}

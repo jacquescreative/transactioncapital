@@ -1,0 +1,110 @@
+@media only screen and (min-width:600px) and (max-width:899px){
+/* CSS Document */
+
+.center {
+	width:98%;
+	padding:0px 1%;
+	position:relative;
+	overflow:hidden;
+}
+
+.st300 {
+	display:none !important;
+
+}
+.st600 {
+	display:block !important;
+
+}
+.st900 {
+	display:none !important;
+
+}
+.st1200 {
+	display:none !important;
+
+}
+.st1500 {
+	display:none !important;
+
+}
+	
+	.left {
+	width:50% !important;
+		padding: 0;
+		margin: 0;
+}
+	.right {
+	width:50% !important;
+		padding: 0;
+		margin: 0;
+}
+	
+.fourCol li {
+    width: 31% !important;
+}
+	.sixCol li {
+	width: 48% ;
+}
+	.threeCol li{
+	width: 48%;
+}
+	.twoCol li {
+	width: 98%;
+}
+	.fiveCol li {
+    width: 14%;
+}
+	
+	.fullPage {
+	min-height: 800px;
+	transition-duration: 0.5s;
+}
+.halfPage {
+	min-height: 400px;
+	transition-duration: 0.5s;
+}
+	
+	/* custom starts here */
+	
+	.homeBG {
+    background-size: 180%;
+	}
+	.calloutText {
+    width: 100%;
+	}
+	.homeCallout ul {
+    margin: 0;
+		overflow: hidden;
+	}
+	.contact ul {
+		margin-left: -40px;
+	}
+	.calloutCover {
+    width: 25%;
+	}
+	.calloutClaim {
+    width: 25%;
+	}
+	.offering .fourCol li {
+    width: 33% !important;
+}
+	.mobiHomeBG {
+		display: none;
+	}
+	.mobiMenu {
+		display:block;
+	}
+	.desktopMenu {
+		display:none;
+	}
+.nav .centerNav .left {
+		width: 45% !important;
+	}
+.nav .centerNav .right  {
+		width: 45% !important;
+	}
+	.mobiMenu img {
+		margin-top:10px;
+	}
+}
